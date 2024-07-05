@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "ccc",
+    "aca"
+  ],
+  "key": {
+    "a": {
+      "item": "edible_heart:heart_container"
+    },
+    "b": {
+      "item": "minecraft:carved_pumpkin"
+    },
+    "c": {
+      "item": "minecraft:iron_block"
+    }
+  },
+  "result": {
+    "item": "minecraft:iron_golem_spawn_egg",
+    "count": 1
+  }
+}

@@ -1,0 +1,250 @@
+{
+  "mod_elements": [
+    {
+      "name": "HeartContainerAfterUsed",
+      "type": "procedure",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heart_container_after_used",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/edibleheart/procedures/HeartContainerAfterUsedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "HeartContainer",
+      "type": "item",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heart_container",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/edible_heart/models/item/heart_container.json",
+          "src/main/java/net/mcreator/edibleheart/item/HeartContainerItem.java"
+        ]
+      }
+    },
+    {
+      "name": "HeartContainerWhenEntitiesKilled",
+      "type": "procedure",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heart_container_when_entities_killed",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/edibleheart/procedures/HeartContainerWhenEntitiesKilledProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "HeartContainerCraft",
+      "type": "recipe",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heart_container_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/edible_heart/recipes/heart_container_craft.json"
+        ]
+      }
+    },
+    {
+      "name": "HeartContainerCraftToIronGolemSpawnEgg",
+      "type": "recipe",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heart_container_craft_to_iron_golem_spawn_egg",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/edible_heart/recipes/heart_container_craft_to_iron_golem_spawn_egg.json"
+        ]
+      }
+    },
+    {
+      "name": "HeartContainerCraftToSnowGolemSpawnEgg",
+      "type": "recipe",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heart_container_craft_to_snow_golem_spawn_egg",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/edible_heart/recipes/heart_container_craft_to_snow_golem_spawn_egg.json"
+        ]
+      }
+    },
+    {
+      "name": "HeartContainerCraftToVillagerSpawnEgg",
+      "type": "recipe",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heart_container_craft_to_villager_spawn_egg",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/edible_heart/recipes/heart_container_craft_to_villager_spawn_egg.json"
+        ]
+      }
+    },
+    {
+      "name": "HeartContainerCraftToChickenSpawnEgg",
+      "type": "recipe",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heart_container_craft_to_chicken_spawn_egg",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/edible_heart/recipes/heart_container_craft_to_chicken_spawn_egg.json"
+        ]
+      }
+    },
+    {
+      "name": "HeartContainerCraftToTurtleSpawnEgg",
+      "type": "recipe",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heart_container_craft_to_turtle_spawn_egg",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/edible_heart/recipes/heart_container_craft_to_turtle_spawn_egg.json"
+        ]
+      }
+    },
+    {
+      "name": "AbsorptionHeartContainer",
+      "type": "item",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "absorption_heart_container",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/edibleheart/item/AbsorptionHeartContainerItem.java",
+          "src/main/resources/assets/edible_heart/models/item/absorption_heart_container.json"
+        ]
+      }
+    },
+    {
+      "name": "HeartContainerCraftToAbsorptionHeartContainer",
+      "type": "recipe",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heart_container_craft_to_absorption_heart_container",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/edible_heart/recipes/heart_container_craft_to_absorption_heart_container.json"
+        ]
+      }
+    },
+    {
+      "name": "HeartContainerBrewToInstantHealthPotion",
+      "type": "recipe",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heart_container_brew_to_instant_health_potion",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/edibleheart/recipes/brewing/HeartContainerBrewToInstantHealthPotionBrewingRecipe.java"
+        ]
+      }
+    },
+    {
+      "name": "AbsorptionHeartContainerAfterUsed",
+      "type": "procedure",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "absorption_heart_container_after_used",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/edibleheart/procedures/AbsorptionHeartContainerAfterUsedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AbsorptionHeartContainerCraftToTotemOfUndying",
+      "type": "recipe",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "absorption_heart_container_craft_to_totem_of_undying",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/edible_heart/recipes/absorption_heart_container_craft_to_totem_of_undying.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {},
+  "language_map": {
+    "en_us": {
+      "item.edible_heart.absorption_heart_container": "Absorption Heart Container",
+      "item.edible_heart.heart_container": "Heart Container"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "edible_heart",
+    "modName": "Edible Heart",
+    "version": "1.0.0",
+    "description": "Adds edible hearts and a few more.",
+    "author": "36101, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "GNU General Public License version 3 (GPLv3)",
+    "serverSideOnly": false,
+    "modPicture": "regeneration_je3_be2",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.edibleheart"
+  },
+  "mcreatorVersion": 202400118518
+}

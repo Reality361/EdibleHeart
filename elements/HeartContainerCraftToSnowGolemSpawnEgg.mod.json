@@ -1,0 +1,48 @@
+{
+  "_fv": 60,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": "Blocks.CARVED_PUMPKIN"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:HeartContainer"
+      },
+      {
+        "value": "Blocks.SNOW"
+      },
+      {
+        "value": "CUSTOM:HeartContainer"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Blocks.SNOW"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "Items.SNOW_GOLEM_SPAWN_EGG"
+    },
+    "name": "heart_container_craft_to_snow_golem_spawn_egg",
+    "namespace": "mod"
+  }
+}
