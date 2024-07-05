@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "aba",
+    " a "
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:gold_nugget"
+    },
+    "b": {
+      "item": "edible_heart:heart_container"
+    }
+  },
+  "result": {
+    "item": "edible_heart:absorption_heart_container",
+    "count": 1
+  }
+}

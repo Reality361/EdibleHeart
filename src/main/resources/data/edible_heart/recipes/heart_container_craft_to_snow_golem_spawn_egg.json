@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "bcb",
+    " c "
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:carved_pumpkin"
+    },
+    "b": {
+      "item": "edible_heart:heart_container"
+    },
+    "c": {
+      "item": "minecraft:snow_block"
+    }
+  },
+  "result": {
+    "item": "minecraft:snow_golem_spawn_egg",
+    "count": 1
+  }
+}
